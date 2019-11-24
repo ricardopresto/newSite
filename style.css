@@ -21,15 +21,26 @@ header {
 #headerContainer {
   width: 90%;
   height: 50px;
-  background-image: url("./images/slate-tile.jpg");
-  opacity: 0.9;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 25px;
   box-shadow: 0 0 15px #fff, inset 0 0 10px #fff;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
+}
+
+#headerBackground {
+  background-image: url("./images/slate-tile.jpg");
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.8;
+  border-radius: 25px;
 }
 
 nav {
@@ -43,7 +54,11 @@ a {
   cursor: default;
 }
 a:hover {
-  text-shadow: 0 0 10px #fff;
+  text-shadow: 0 0 10px #fff !important;
+}
+
+header a:hover {
+  color: #aaf !important;
 }
 
 #container {
@@ -55,6 +70,148 @@ a:hover {
 
 .content {
   width: 90%;
-  height: 800px;
-  border: 1px solid #00f;
+  height: min-content;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projectContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.projectBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  min-width: 300px;
+  max-width: 80%;
+  height: min-content;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 15px #888;
+  border-radius: 6px;
+}
+
+#projectContainer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#projectContainer a:hover {
+  cursor: default;
+}
+
+#projectContainer img {
+  margin-top: 10px;
+  border: 1px solid #888;
+}
+
+.projectDetails {
+  width: 50%;
+}
+
+.linksBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 10px;
+}
+
+.description {
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+}
+
+#aboutText {
+  width: 60%;
+  margin: 2em 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aboutText div:first-child {
+  margin-bottom: 1em;
+}
+
+#skillsContainer div {
+  margin: 1em;
+  color: #fff;
+}
+
+#skillsContainer div:first-child {
+  margin-top: 0;
+}
+
+#skillsContainer img {
+  height: 250px;
+  box-shadow: 1px 1px 15px #888;
+}
+
+#skillsBox {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-around;
+}
+
+#listBox {
+  font-size: 0.9em;
+  text-align: left;
+}
+
+#listBox:first-child {
+  margin-top: 1em;
+}
+
+#langSelect {
+  color: #fff;
+  display: flex;
+  width: 80%;
+  margin-top: 1em;
+  flex-direction: row;
+  justify-content: flex-end;
+  cursor: default;
+}
+
+#selector span:hover {
+  text-shadow: 0 0 10px #fff !important;
+  color: #aaf !important;
+}
+
+#contactDetails {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+  margin-top: 1em;
+  height: 100vh;
+}
+
+#contactDetails p:first-child {
+  margin-top: 3em;
+}
+
+#contactDetails p {
+  margin: 2em;
+}
+
+#emailLink {
+  text-decoration: none;
+  cursor: default;
+  color: #fff;
 }

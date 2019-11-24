@@ -8,23 +8,126 @@
   <title>Document</title>
   <link href="style.css" rel="stylesheet">
   </link>
+  <script src="https://kit.fontawesome.com/6d9113b59f.js"></script>
 </head>
 
 <body>
   <header>
     <div id="headerContainer">
       <nav>
-        <a href="#one">Projects</a>
-        <a href="#two">About</a>
-        <a href="#three">Contact</a>
+        <a id="projectsLink" href="#projects">Projects</a>
+        <a id="aboutLink" href="#about">About</a>
+        <a id="contactLink" href="#contact">Contact</a>
       </nav>
+      <div id="headerBackground"></div>
     </div>
   </header>
   <div id="container">
-    <div class="content" id="one"></div>
-    <div class="content" id="two"></div>
-    <div class="content" id="three"></div>
+    <div class="content" id="projects">
+      <div id="projectContainer">
+        <div id="drumApp" class="projectBox">
+          <a href="./drum/index.html" target="_blank"><img src="./images/drum.jpg" /></a>
+          <div class="projectDetails">
+            <div class="description">
+              A drum machine built with Vue.js
+            </div>
+            <div class="linksBox">
+              <a href="./drum/index.html" target="_blank">Webpage</a>
+              <a href="https://github.com/ricardopresto/drumVue" target="_blank">
+                <i class="fab fa-github fa-lg"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div id="mandelbrotApp" class="projectBox">
+          <a href="./mandelbrot/index.html" target="_blank"><img src="./images/mandelbrot.jpg" /></a>
+          <div class="projectDetails">
+            <div class="description">
+              A Mandelbrot Set generator
+            </div>
+            <div class="linksBox">
+              <a href="./mandelbrot/index.html" target="_blank">Webpage</a>
+              <a href="https://github.com/ricardopresto/website/tree/master/mandelbrot" target="_blank">
+                <i class="fab fa-github fa-lg"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div id="weatherApp" class="projectBox">
+          <a href="./weather_app/index.html" target="_blank"><img src="./images/weather.jpg" /></a>
+          <div class="projectDetails">
+            <div class="description">
+              A front-end for the OpenWeatherMap API
+            </div>
+            <div class="linksBox">
+              <a href="./weather_app/index.html" target="_blank">Webpage</a>
+              <a href="https://github.com/ricardopresto/website/tree/master/weather_app" target="_blank">
+                <i class="fab fa-github fa-lg"></i> Code</a>
+            </div>
+          </div>
+        </div>
+        <div id="bounceApp" class="projectBox">
+          <a href="./bounce/index.html" target="_blank"><img src="./images/bounce.jpg" /></a>
+          <div class="projectDetails">
+              <div class="description">
+            A traditional old-school Breakout game
+          </div>
+          <div class="linksBox">
+            <a href="./bounce/index.html" target="_blank">Webpage</a>
+            <a href="https://github.com/ricardopresto/website/tree/master/bounce" target="_blank">
+              <i class="fab fa-github fa-lg"></i> Code</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="about">
+        <div id="langSelect">
+          <div id="selector">
+            <span id="ned">NL&ensp;</span><span id="eng">&ensp;EN</span>
+          </div>
+        </div>
+        <div id="aboutText">
+            <div>​Ik hou ervan dat alles mogelijk is met software, en ik ben op mijn best als ik een 
+            probleem moet oplossen.</div>
+            <div>Mijn universitaire studie is filosofie, en ik ondervind dat de precisie en logische 
+            analyse vanuit de filosofie een goede basis is voor het proces van software ontwikkelen.</div>
+            </div>
+        <div id="skillsContainer">
+            <div id="skillsBox">
+              <div id="listBox">
+                <div>Skills:</div>
+                <div>
+                <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript/ES6</li>
+                <li>Vue.js</li>
+                <li>Responsive Design</li>
+                <li>Git</li>
+                <li>Linux</li>
+                <li>GIMP/Photoshop</li>
+                </ul>
+                </div>
+                <div>Currently learning:</div>
+                <div>
+                <ul>
+                <li>Node.js</li>
+                </ul>
+                </div>
+              </div>  
+              <img src="./images/portrait.jpg" >
+            </div>
+          </div>
+    </div>
+    <div class="content" id="contact">
+        <div id="contactDetails">
+            <p><i class="fas fa-globe-europe"></i>&ensp;Helmond, Noord-Brabant, NL</p>
+            <p><i class="far fa-envelope"></i>&ensp;richard@ricardopresto.eu</p>
+            <p><i class="fas fa-phone"></i>&ensp;+31 6 85426290</p>
+          </div>
+    </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 
