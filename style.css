@@ -8,6 +8,10 @@ body {
   background-image: url("./images/slate-tile.jpg");
 }
 
+div {
+  border: 1px solid blue;
+}
+
 header {
   width: 100%;
   height: min-content;
@@ -83,7 +87,7 @@ header a:hover {
   margin-top: 20px;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 
 .projectBox {
@@ -113,6 +117,7 @@ header a:hover {
 #projectContainer img {
   margin-top: 10px;
   border: 1px solid #888;
+  height: 250px;
 }
 
 .projectDetails {
@@ -159,7 +164,7 @@ header a:hover {
 }
 
 #skillsContainer img {
-  height: 250px;
+  height: 300px;
   box-shadow: 1px 1px 15px #888;
 }
 
