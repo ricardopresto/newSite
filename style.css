@@ -34,7 +34,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #headerBackground {
@@ -234,6 +234,10 @@ header a:hover {
 }
 
 @media screen and (min-width: 700px) {
+  header {
+    font-size: 1.2em;
+  }
+
   .projectBox {
     flex-direction: row;
     font-size: 1.2em;
