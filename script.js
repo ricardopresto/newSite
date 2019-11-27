@@ -13,7 +13,7 @@ const projectsLink = document.getElementById("projectsLink"),
 ned.addEventListener("click", nedSelect);
 eng.addEventListener("click", engSelect);
 
-let projectsEnd = projects.clientHeight - 200,
+let projectsEnd = projects.clientHeight - 220,
   aboutEnd = about.clientHeight + projectsEnd;
 
 function projectsSelect() {
