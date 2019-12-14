@@ -9,10 +9,6 @@ body {
   background-image: url("./images/slate-tile.jpg");
 }
 
-/* div {
-  border: 1px solid blue;
-} */
-
 header {
   width: 100%;
   height: min-content;
@@ -68,7 +64,7 @@ header a:hover {
 }
 
 #container {
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
