@@ -1,164 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ricardopresto.eu</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6d9113b59f.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ricardopresto.eu</title>
-  <link href="style.css" rel="stylesheet">
-  </link>
-  <script src="https://kit.fontawesome.com/6d9113b59f.js"></script>
-</head>
-
-<body>
-  <header>
-    <div id="headerContainer">
-      <nav>
-        <a id="projectsLink" href="#projects">Projects</a>
-        <a id="aboutLink" href="#about">About</a>
-        <a id="contactLink" href="#contact">Contact</a>
-      </nav>
-      <div id="headerBackground"></div>
-    </div>
-  </header>
-  <div id="container">
-    <div class="content" id="projects">
-      <div id="projectContainer">
-        <div class="projectBox">
-          <a href="https://quote-box.herokuapp.com/" target="_blank"><img
-              src="./images/quotebox.jpg" /></a>
-          <div class="projectDetails">
-            <div class="description">
-              A searchable quotations database built with<br />MongoDB, Express
-              and
-              Vue
+  <body>
+    <header>
+      <div id="headerContainer">
+        <nav>
+          <a id="projectsLink" href="#projects">Projects</a>
+          <a id="aboutLink" href="#about">About</a>
+          <a id="contactLink" href="#contact">Contact</a>
+        </nav>
+        <div id="headerBackground"></div>
+      </div>
+    </header>
+    <div id="container">
+      <div class="content" id="projects">
+        <div id="projectContainer">
+          <div class="projectBox">
+            <a href="https://quote-box.herokuapp.com/" target="_blank"
+              ><img src="./images/quotebox.jpg"
+            /></a>
+            <div class="projectDetails">
+              <div class="description">
+                A searchable quotations database built with<br />MongoDB,
+                Express and Vue
+              </div>
+              <div class="linksBox">
+                <a href="https://quote-box.herokuapp.com/" target="_blank"
+                  >Webpage</a
+                >
+                <a
+                  href="https://github.com/ricardopresto/quoteBox"
+                  target="_blank"
+                >
+                  <i class="fab fa-github fa-lg"></i> Code</a
+                >
+              </div>
             </div>
-            <div class="linksBox">
-              <a href="https://quote-box.herokuapp.com/"
-                target="_blank">Webpage</a>
-              <a href="https://github.com/ricardopresto/quoteBox"
-                target="_blank">
-                <i class="fab fa-github fa-lg"></i> Code</a>
+          </div>
+          <div class="projectBox">
+            <a href="./drum/index.html" target="_blank"
+              ><img src="./images/drum2.jpg"
+            /></a>
+            <div class="projectDetails">
+              <div class="description">
+                A drum machine built with Vue
+              </div>
+              <div class="linksBox">
+                <a href="./drum/index.html" target="_blank">Webpage</a>
+                <a
+                  href="https://github.com/ricardopresto/drumVue"
+                  target="_blank"
+                >
+                  <i class="fab fa-github fa-lg"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectBox">
+            <a href="./mandelbrot/index.html" target="_blank"
+              ><img src="./images/mandelbrot.jpg"
+            /></a>
+            <div class="projectDetails">
+              <div class="description">
+                A Mandelbrot Set generator
+              </div>
+              <div class="linksBox">
+                <a href="./mandelbrot/index.html" target="_blank">Webpage</a>
+                <a
+                  href="https://github.com/ricardopresto/mandelbrot"
+                  target="_blank"
+                >
+                  <i class="fab fa-github fa-lg"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectBox">
+            <a href="./weather_app/index.html" target="_blank"
+              ><img src="./images/weather2.jpg"
+            /></a>
+            <div class="projectDetails">
+              <div class="description">
+                A front-end for the OpenWeatherMap API
+              </div>
+              <div class="linksBox">
+                <a href="./weather_app/index.html" target="_blank">Webpage</a>
+                <a
+                  href="https://github.com/ricardopresto/website/tree/master/weather_app"
+                  target="_blank"
+                >
+                  <i class="fab fa-github fa-lg"></i> Code</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="projectBox">
+            <a href="./gallery/index.html" target="_blank"
+              ><img src="./images/gallery.jpg"
+            /></a>
+            <div class="projectDetails">
+              <div class="description">
+                A simple image gallery built with Vue
+              </div>
+              <div class="linksBox">
+                <a href="./gallery/index.html" target="_blank">Webpage</a>
+                <a
+                  href="https://github.com/ricardopresto/vuegallery"
+                  target="_blank"
+                >
+                  <i class="fab fa-github fa-lg"></i> Code</a
+                >
+              </div>
             </div>
           </div>
         </div>
-        <div class="projectBox">
-          <a href="./drum/index.html" target="_blank"><img
-              src="./images/drum2.jpg" /></a>
-          <div class="projectDetails">
-            <div class="description">
-              A drum machine built with Vue
-            </div>
-            <div class="linksBox">
-              <a href="./drum/index.html" target="_blank">Webpage</a>
-              <a href="https://github.com/ricardopresto/drumVue"
-                target="_blank">
-                <i class="fab fa-github fa-lg"></i> Code</a>
-            </div>
+      </div>
+      <div class="content" id="about">
+        <div id="langSelect">
+          <div id="selector">
+            <span id="ned">NL&ensp;</span><span id="eng">&ensp;EN</span>
           </div>
         </div>
-        <div class="projectBox">
-          <a href="./mandelbrot/index.html" target="_blank"><img
-              src="./images/mandelbrot2.jpg" /></a>
-          <div class="projectDetails">
-            <div class="description">
-              A Mandelbrot Set generator
-            </div>
-            <div class="linksBox">
-              <a href="./mandelbrot/index.html" target="_blank">Webpage</a>
-              <a href="https://github.com/ricardopresto/website/tree/master/mandelbrot"
-                target="_blank">
-                <i class="fab fa-github fa-lg"></i> Code</a>
-            </div>
+        <div id="aboutText">
+          <div>
+            ​Ik hou ervan dat alles mogelijk is met software, en ik ben op mijn
+            best als ik een probleem moet oplossen.
+          </div>
+          <div>
+            Mijn universitaire studie is filosofie, en ik ondervind dat de
+            precisie en logische analyse vanuit de filosofie een goede basis is
+            voor het proces van software ontwikkelen.
           </div>
         </div>
-        <div class="projectBox">
-          <a href="./weather_app/index.html" target="_blank"><img
-              src="./images/weather2.jpg" /></a>
-          <div class="projectDetails">
-            <div class="description">
-              A front-end for the OpenWeatherMap API
+        <div id="skillsContainer">
+          <div id="skillsBox">
+            <div id="listBox">
+              <div>Skills:</div>
+              <div>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS</li>
+                  <li>JavaScript/ES6</li>
+                  <li>Vue.js</li>
+                  <li>Responsive Design</li>
+                  <li>Git</li>
+                  <li>Linux</li>
+                  <li>GIMP/Photoshop</li>
+                </ul>
+              </div>
+              <div>Currently learning:</div>
+              <div>
+                <ul>
+                  <li>Node.js</li>
+                </ul>
+              </div>
             </div>
-            <div class="linksBox">
-              <a href="./weather_app/index.html" target="_blank">Webpage</a>
-              <a href="https://github.com/ricardopresto/website/tree/master/weather_app"
-                target="_blank">
-                <i class="fab fa-github fa-lg"></i> Code</a>
-            </div>
+            <img src="./images/portrait.jpg" />
           </div>
         </div>
-        <div class="projectBox">
-          <a href="./bounce/index.html" target="_blank"><img
-              src="./images/bounce2.jpg" /></a>
-          <div class="projectDetails">
-            <div class="description">
-              A traditional old-school Breakout game
-            </div>
-            <div class="linksBox">
-              <a href="./bounce/index.html" target="_blank">Webpage</a>
-              <a href="https://github.com/ricardopresto/website/tree/master/bounce"
-                target="_blank">
-                <i class="fab fa-github fa-lg"></i> Code</a>
-            </div>
-          </div>
+      </div>
+      <div class="content" id="contact">
+        <div id="contactDetails">
+          <p>
+            <i class="fas fa-globe-europe"></i>&ensp;Helmond, Noord-Brabant, NL
+          </p>
+          <p><i class="far fa-envelope"></i>&ensp;richard@ricardopresto.eu</p>
+          <p><i class="fas fa-phone"></i>&ensp;+31 6 85426290</p>
         </div>
       </div>
     </div>
-    <div class="content" id="about">
-      <div id="langSelect">
-        <div id="selector">
-          <span id="ned">NL&ensp;</span><span id="eng">&ensp;EN</span>
-        </div>
-      </div>
-      <div id="aboutText">
-        <div>​Ik hou ervan dat alles mogelijk is met software, en ik ben op mijn
-          best als ik een
-          probleem moet oplossen.</div>
-        <div>Mijn universitaire studie is filosofie, en ik ondervind dat de
-          precisie en logische
-          analyse vanuit de filosofie een goede basis is voor het proces van
-          software ontwikkelen.</div>
-      </div>
-      <div id="skillsContainer">
-        <div id="skillsBox">
-          <div id="listBox">
-            <div>Skills:</div>
-            <div>
-              <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>JavaScript/ES6</li>
-                <li>Vue.js</li>
-                <li>Responsive Design</li>
-                <li>Git</li>
-                <li>Linux</li>
-                <li>GIMP/Photoshop</li>
-              </ul>
-            </div>
-            <div>Currently learning:</div>
-            <div>
-              <ul>
-                <li>Node.js</li>
-              </ul>
-            </div>
-          </div>
-          <img src="./images/portrait.jpg">
-        </div>
-      </div>
-    </div>
-    <div class="content" id="contact">
-      <div id="contactDetails">
-        <p><i class="fas fa-globe-europe"></i>&ensp;Helmond, Noord-Brabant, NL
-        </p>
-        <p><i class="far fa-envelope"></i>&ensp;richard@ricardopresto.eu</p>
-        <p><i class="fas fa-phone"></i>&ensp;+31 6 85426290</p>
-      </div>
-    </div>
-  </div>
 
-  <script src="script.js"></script>
-</body>
-
-
+    <script src="script.js"></script>
+  </body>
 </html>
